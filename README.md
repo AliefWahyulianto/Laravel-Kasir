@@ -1,8 +1,6 @@
 # Laravel-Kasir
 Daily Study Laravel
 
-# Laravel Kasir
-
 Project belajar Laravel dari nol - dibuat sebagai portofolio dan catatan perjalanan belajar.
 
 ## Tech Stack
