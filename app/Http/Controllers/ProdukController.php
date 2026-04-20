@@ -12,4 +12,17 @@ class ProdukController extends Controller
         $produk = Produk::all();
         return view('produk.index', compact('produk'));
     }
+    public function create()
+    {
+        return view('produk.create');
+    }
+    public function store(request $request)
+    {
+        Produk::create([
+            'nama_produk' => $request->nama_produk,
+            'harga' => $request->harga,
+            'stok' => $request->stok,
+        ]);
+        return redirect('produk');
+    }
 }
