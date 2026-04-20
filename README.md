@@ -21,6 +21,13 @@ Project belajar Laravel dari nol - dibuat sebagai portofolio dan catatan perjala
 - ✅ Tampilkan data dari database
 - ✅ Push project ke GitHub
 
+### Hari 2 - Senin, 20 April 2026
+- ✅ Review materi kemarin
+- ✅ Buat form tambah produk (Create)
+- ✅ Paham alur form → store → database
+- ✅ Mulai bisa baca syntax sendiri
+- ✅ Mulai bisa debugging sendiri
+
 ## Roadmap
 - [ ] CRUD Produk
 - [ ] CRUD Transaksi
