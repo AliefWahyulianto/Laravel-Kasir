@@ -25,4 +25,23 @@ class ProdukController extends Controller
         ]);
         return redirect('produk');
     }
+    public function destroy($id)
+    {
+        Produk::destroy($id);
+        return redirect('/produk');
+    }
+    public function edit($id)
+    {
+        $produk = Produk::find($id);
+        return view('produk/edit', compact('produk'));
+    }
+    public function update(Request $request, $id)
+    {
+        $produk = Produk::find($id);
+        $produk->nama_produk =$request->nama_produk;
+        $produk->harga = $request->harga;
+        $produk->stok = $request->stok;
+        $produk->save();
+        return redirect('produk');
+    }
 }
