@@ -15,3 +15,9 @@
 - ✅ Paham alur form → store → database
 - ✅ Mulai bisa baca syntax sendiri
 - ✅ Mulai bisa debugging sendiri
+
+## Hari 3 - Selasa, 21 April 2026
+-✅ CRUD selesai 100%
+-✅ Bisa debug sendiri
+-✅ Bisa baca error sendiri  
+-✅ Push ke GitHub berhasil
