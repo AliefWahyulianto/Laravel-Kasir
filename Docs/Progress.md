@@ -21,3 +21,7 @@
 -✅ Bisa debug sendiri
 -✅ Bisa baca error sendiri  
 -✅ Push ke GitHub berhasil
+
+## Hari ke 7-16, Senin 4 April 2026
+-✅ CRUD selesai 100%
+-✅ Tanpa Lihat Catatan
